@@ -1,90 +1,36 @@
-## [Devias Kit - React](https://material-kit-react.devias.io/)
+# FHE-Based MultiSig Wallet Application
 
-![license](https://img.shields.io/badge/license-MIT-blue.svg)
+## Welcome to the FHE-Based MultiSig Wallet Application!
 
-[![Devias Kit - React](https://github.com/devias-io/material-kit-react/blob/main/public/assets/thumbnail.png)](https://material-kit-react.devias.io/)
+### Overview
+This application provides a secure and decentralized method for executing transactions using Fully Homomorphic Encryption (FHE) technology. FHE enables voting on transaction execution, ensuring the confidentiality and integrity of the voting process.
 
-> Free React Admin Dashboard made with [MUI's](https://mui.com) components, [React](https://reactjs.org) and of course [Next.js](https://github.com/vercel/next.js) to boost your app development process!
+### Features
+- **Secure Transaction Execution:** Transactions are executed securely using FHE, ensuring that transaction details remain confidential.
+- **Decentralized Voting:** Users participate in the voting process, allowing for decentralized decision-making on transaction execution.
+- **Confidentiality:** FHE technology ensures that transaction voting details are protected, maintaining the privacy of the voting process.
 
-## Pages 
+### How It Works
+1. **Transaction Proposal:** Users propose transactions to be executed within the MultiSig wallet.
+2. **Voting:** Other users participate in the voting process using FHE technology, ensuring secure and confidential voting.
+3. **Execution:** Once the required threshold of votes is reached, the transaction is executed securely.
 
-- [Dashboard](https://material-kit-react.devias.io)
-- [Customers](https://material-kit-react.devias.io/dashboard/customers)
-- [Integrations](https://material-kit-react.devias.io/dashboard/integrations)
-- [Settings](https://material-kit-react.devias.io/dashboard/settings)
-- [Account](https://material-kit-react.devias.io/dashboard/account)
-- [Sign In](https://material-kit-react.devias.io/auth/sign-in)
-- [Sign Up](https://material-kit-react.devias.io/auth/sign-up)
-- [Reset Password](https://material-kit-react.devias.io/auth/reset-password)
+### Security Measures
+- **Fully Homomorphic Encryption (FHE):** FHE technology ensures that transaction details and voting processes remain confidential and secure.
+- **Decentralization:** The MultiSig wallet operates on a decentralized network, reducing the risk of single points of failure and enhancing security.
 
-## Free Figma Community File
+### Getting Started
+1. **Installation:** Clone this repository to your local machine.
+2. **Configuration:** npm install
+3. **Running the Application:** npm run dev
 
-- [Duplicate File](https://www.figma.com/file/b3L1Np4RYiicZAOMopHNkm/Devias-Dashboard-Design-Library-Kit)
+### Contributions
+Contributions to this project are welcome! Feel free to submit pull requests or open issues for any enhancements, bug fixes, or feature requests.
 
-## Upgrade to PRO Version
+### License
+This project is licensed under the MIT License.
 
-We also have a pro version of this product which bundles even more pages and components if you want
-to save more time and design efforts :)
+### Contact
+For any inquiries or support, please contact project@example.com.
 
-| Free Version (this one)  | [Devias Kit Pro](https://mui.com/store/items/devias-kit-pro/)                |
-| ------------------------ | :--------------------------------------------------------------------------- |
-| **8** Pages              | **80+** Pages                                                                |
-| ✔ Custom Authentication  | ✔ Authentication with **Amplify**, **Auth0**, **Firebase** and **Supabase**  |
-| -                        | ✔ Vite Version                                                               |
-| -                        | ✔ Dark Mode Support                                                          |
-| -                        | ✔ Complete Users Flows                                                       |
-| -                        | ✔ Premium Technical Support                                                  |
-
-## Quick start
-
-- Clone the repo: `git clone https://github.com/devias-io/material-kit-react.git`
-- Make sure your Node.js and npm versions are up to date
-- Install dependencies: `npm install` or `yarn`
-- Start the server: `npm run dev` or `yarn dev`
-- Open browser: `http://localhost:3000`
-
-## File Structure
-
-Within the download you'll find the following directories and files:
-
-```
-┌── .editorconfig
-├── .eslintrc.js
-├── .gitignore
-├── CHANGELOG.md
-├── LICENSE.md
-├── next-env.d.ts
-├── next.config.js
-├── package.json
-├── README.md
-├── tsconfig.json
-├── public
-└── src
-	├── components
-	├── contexts
-	├── hooks
-	├── lib
-	├── styles
-	├── types
-	└── app
-		├── layout.tsx
-		├── page.tsx
-		├── auth
-		└── dashboard
-```
-
-## Resources
-
-- More freebies like this one: https://devias.io
-
-## Reporting Issues:
-
-- [Github Issues Page](https://github.com/devias-io/material-kit-react/issues)
-
-## License
-
-- Licensed under [MIT](https://github.com/devias-io/material-kit-react/blob/main/LICENSE.md)
-
-## Contact Us
-
-- Email Us: support@deviasio.zendesk.com
+Thank you for choosing the FHE-Based MultiSig Wallet Application! We hope you find it useful and secure for your transaction needs.
