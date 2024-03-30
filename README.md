@@ -30,7 +30,5 @@ Contributions to this project are welcome! Feel free to submit pull requests or 
 ### License
 This project is licensed under the MIT License.
 
-### Contact
-For any inquiries or support, please contact project@example.com.
 
 Thank you for choosing the FHE-Based MultiSig Wallet Application! We hope you find it useful and secure for your transaction needs.
