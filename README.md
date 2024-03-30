@@ -3,12 +3,12 @@
 ## Welcome to the FHE-Based MultiSig Wallet Application!
 
 ### Overview
-This application provides a secure and decentralized method for executing transactions using Fully Homomorphic Encryption (FHE) technology. FHE enables voting on transaction execution, ensuring the confidentiality and integrity of the voting process.
-
+This application leverages Fully Homomorphic Encryption (FHE) technology to provide a secure and decentralized method for executing transactions. FHE enables voting on transaction execution, ensuring the confidentiality and integrity of the voting process. Additionally, users can securely transfer specific tokens through voting. With this capability, users can propose transactions, receive votes from other users, and securely execute transactions using FHE technology. Throughout this process, users' token and transaction information are safeguarded using FHE technology.
 ### Features
 - **Secure Transaction Execution:** Transactions are executed securely using FHE, ensuring that transaction details remain confidential.
 - **Decentralized Voting:** Users participate in the voting process, allowing for decentralized decision-making on transaction execution.
 - **Confidentiality:** FHE technology ensures that transaction voting details are protected, maintaining the privacy of the voting process.
+
 
 ### How It Works
 1. **Transaction Proposal:** Users propose transactions to be executed within the MultiSig wallet.
