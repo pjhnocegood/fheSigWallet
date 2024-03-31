@@ -7,7 +7,7 @@ import { config } from '@/config';
 import {CustomersTable, FheTransaction} from '@/components/dashboard/customer/customers-table';
 import type { Customer } from '@/components/dashboard/customer/customers-table';
 
-export const metadata = { title: `Customers | Dashboard | ${config.site.name}` } satisfies Metadata;
+export const metadata = { title: `Transactions | ${config.site.name}` } satisfies Metadata;
 
 const customers = [
     {

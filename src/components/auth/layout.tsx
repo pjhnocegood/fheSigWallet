@@ -46,11 +46,12 @@ export function Layout({ children }: LayoutProps): React.JSX.Element {
             <Typography color="inherit" sx={{ fontSize: '24px', lineHeight: '32px', textAlign: 'center' }} variant="h1">
               Welcome to{' '}
               <Box component="span" sx={{ color: '#15b79e' }}>
-                FHE Wallet
+                Fhesig Wallet
               </Box>
             </Typography>
             <Typography align="center" variant="subtitle1">
-              FHE는
+              Fhesig Wallet is a FHE-based MultiSig Wallet.
+              MultiSig is possible while maintaining confidentiality in Fhesig Wallet.
             </Typography>
           </Stack>
 
