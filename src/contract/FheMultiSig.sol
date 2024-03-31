@@ -85,7 +85,7 @@ contract FheMultiSig is Permissioned {
     if (isConfirmed(nonce)) {
       FheTransaction storage txn = fheTransactions[nonce];
       txn.finalized = true;
-      //동형암호화 로직필요
+
       euint32 total;
       for (uint i=0; i<ownerCount; i++) {
         if(isConfirmations[nonce][owners[i]]) {
@@ -202,34 +202,6 @@ contract FheMultiSig is Permissioned {
     voteThreshold = _voteThreshold;
     executeThreshold = _executeThreshold;
   }
-
-
-  function add(inEuint32 calldata encryptedValue) public {
-    euint32 value = FHE.asEuint32(encryptedValue);
-    counter = counter + value;
-  }
-
-  function getCounter() public view returns (uint256) {
-    return FHE.decrypt(counter);
-  }
-
-  function getCounterPermit(
-    Permission memory permission
-  ) public view onlySender(permission) returns (uint256) {
-    return FHE.decrypt(counter);
-  }
-
-  function getCounterPermitSealed(
-    Permission memory permission
-  ) public view onlySender(permission) returns (bytes memory) {
-    return FHE.sealoutput(counter, permission.publicKey);
-  }
-
-  /*
-  function transferEth(address payable _to, uint _amount) public {
-          _to.call{value: _amount}("");
-  }
-  */
 
 
 

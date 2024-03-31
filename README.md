@@ -19,6 +19,12 @@ This application leverages Fully Homomorphic Encryption (FHE) technology to prov
 - **Fully Homomorphic Encryption (FHE):** FHE technology ensures that transaction details and voting processes remain confidential and secure.
 - **Decentralization:** The MultiSig wallet operates on a decentralized network, reducing the risk of single points of failure and enhancing security.
 
+### Roadmap
+- We plan to increase user accessibility by applying AA (account abstraction).
+- We plan to add funding execution for ERC-20, including FHERC-20.
+-
+
+
 ### Getting Started
 1. **Installation:** Clone this repository to your local machine.
 2. **Configuration:** npm install
